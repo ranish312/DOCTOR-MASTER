@@ -1,0 +1,327 @@
+@media (max-width: 1024px) {
+    .paragraph {
+        width: 100%;
+    }
+
+    .team-members {
+        height: 360px;
+    }
+
+    .team-members img {
+        width: 180px;
+        padding: 20px 0;
+    }
+
+    .logo a h1 {
+        font-size: 18px;
+    }
+
+    .bg-wrapper {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .dropdown-menu {
+        background-color: var(--primary-color);
+        border: none;
+    }
+
+    .banner-text {
+        font-size: 35px;
+        line-height: 1.7;
+    }
+
+    .paragraph {
+        width: 100%;
+    }
+
+    .about-content-m {
+        margin-top: 30px;
+    }
+
+    .message-head .top-head:after {
+        top: 68px;
+    }
+
+    .message-head .team-head:after {
+        left: 37%;
+    }
+
+    .team-members img {
+        width: 180px;
+        padding: 25px 0;
+    }
+
+    .navbar .dropdown-menu .dropdown-item {
+        background: var(--primary-color);
+        color: var(--white-color);
+        border: none;
+    }
+
+    .ft .dep {
+        margin-left: 5rem;
+    }
+
+    .ft .link {
+        margin-top: 30px;
+    }
+
+    .ft .contact {
+        border-radius: 15px;
+        margin-left: -25px;
+        margin-top: 10px;
+        padding: 20px 30px;
+    }
+
+    .test .card {
+        width: 100%;
+        height: auto;
+    }
+
+    .second-img img {
+        bottom: 30%;
+        left: -64px;
+    }
+
+    .timeline ul li {
+        list-style: none;
+        position: relative;
+        width: 100%;
+        padding: 20px 40px;
+    }
+
+    .timeline ul li:nth-child(even) {
+        float: left;
+        text-align: left;
+        clear: both;
+    }
+
+    .content {
+        padding-bottom: 20px;
+        text-align: left;
+    }
+
+    /* .timeline::before {
+        display: none;
+    } */
+
+    .timeline::before {
+        left: 14px;
+    }
+
+    .timeline ul li:nth-child(odd)::before {
+        left: 10px;
+    }
+
+    .timeline ul li:nth-child(even)::before {
+        left: 10px;
+    }
+
+    .img-holder {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-holder img {
+        width: 200px !important;
+        height: 200px;
+    }
+
+    .testimonial-inner-holder {
+        display: flex;
+        margin-top: 40px;
+        text-align: left;
+        justify-content: center;
+    }
+
+    .testimonial-text p {
+        text-align: center;
+    }
+
+    .testimonials-meta {
+        text-align: center;
+    }
+}
+
+@media (max-width: 426px) {
+    .logo {
+        text-align: center;
+    }
+
+    .banner-text {
+        text-align: center;
+    }
+
+    .bg-wrapper .info {
+        display: none;
+    }
+
+    .enquiry {
+        margin-left: 0px;
+    }
+
+    #registration h2 {
+        font-size: 30px;
+    }
+
+    /* SERVICES */
+    .ser-detail {
+        text-align: center;
+        margin-left: 0;
+        padding: 30px 7px;
+    }
+
+    .ser-detail h2 {
+        font-size: 24px;
+    }
+
+    .ser-detail p {
+        line-height: revert;
+    }
+
+    .services {
+        padding: 0;
+    }
+
+    .services .card {
+        width: 383px;
+        margin-left: 20px;
+        margin-bottom: 40px;
+    }
+
+    .owl-theme .owl-dots .owl-dot {
+        display: none;
+    }
+
+    .appointment {
+        padding: 55px 0px;
+    }
+
+    .appointment-detail {
+        margin: 0;
+    }
+
+    .appointment-info h2 {
+        margin-top: 30px;
+    }
+
+    .inner-title-banner {
+        height: 20vh;
+    }
+
+    .sub-head {
+        padding: 20px 25px;
+    }
+
+    .testimonials {
+        margin-top: 3rem;
+    }
+
+    .client-view {
+        padding: 15px;
+    }
+
+    .client-say h2 {
+        font-size: 26px;
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+
+    .partners .city {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .partners {
+        flex-wrap: wrap;
+    }
+
+    .ft {
+        padding: 20px;
+    }
+
+    .ft .link {
+        margin-top: 10px;
+        line-height: none;
+    }
+
+    .ft .contact {
+        border-radius: 0px;
+        margin-left: -20px;
+        margin-top: 15px;
+        padding: 25px 17px;
+    }
+
+    .ft .contact a:hover {
+        color: var(--primary-color);
+        text-decoration: none;
+    }
+
+    .copyright {
+        margin-bottom: 0px;
+        background: #ADF0D1;
+        color: var(--primary-color);
+    }
+
+    .ft .dep {
+        margin-left: 0rem;
+    }
+
+    .footer-div {
+        margin-bottom: 30px;
+    }
+
+    /* about */
+    .about-content {
+        margin-top: 15px;
+    }
+
+    .about-content p {
+        text-align: justify;
+    }
+
+    .message-head .top-head:after {
+        top: 61px;
+    }
+
+    .message-head .team-head:after {
+        left: 33%;
+    }
+
+    .team-members {
+        height: 350px;
+    }
+
+    .paragraph {
+        width: 100%;
+    }
+
+    .blog-date {
+        display: none !important;
+    }
+
+    .blog-page.blog-detail {
+        padding: 25px 0;
+    }
+
+    .second-img img {
+        bottom: 0%;
+        left: 0px;
+    }
+
+    .affiliation-hospital-image {
+        margin-bottom: 20px;
+    }
+
+    .about-content {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 376px) {
+    .single-blog .blog-img img {
+        width: 100%;
+        height: 250px;
+    }
+}
